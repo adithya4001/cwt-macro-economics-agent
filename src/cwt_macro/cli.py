@@ -49,6 +49,8 @@ def main():
     parser.add_argument('--env-file',help='Private credential file; defaults to .env in the working directory')
     sub=parser.add_subparsers(dest='command',required=True)
     sub.add_parser('check-setup',help='Check required credential presence offline without exposing values or charging services')
+    access=sub.add_parser('verify-access',help='Verify provider credentials and fetch recent news without starting Apify Actors')
+    access.add_argument('--as-of',required=True);access.add_argument('--output',default='data/live')
     demo=sub.add_parser('demo',help='Generate labelled synthetic data and run complete offline pipeline')
     demo.add_argument('--as-of',default='2026-10-10');demo.add_argument('--output',default='reports/demo')
     demo.add_argument('--data',default='data/demo')
@@ -61,25 +63,34 @@ def main():
     evaluation.add_argument('--forecast-at');evaluation.add_argument('--source-timezone')
     args=parser.parse_args()
     try:
-        if args.command in ('check-setup','ingest-live'):
+        if args.command in ('check-setup','ingest-live','verify-access'):
             load_env_file(args.env_file or '.env',required=bool(args.env_file))
         if args.command=='check-setup':
             status=setup_status()
             print(json.dumps(status,indent=2))
             if status['missing_settings']: raise SystemExit(2)
             return
-        if args.command=='ingest-live':
+        if args.command in ('ingest-live','verify-access'):
             require_live_credentials()
     except ValueError as exc:
         parser.error(str(exc))
-    if args.command=='demo':
+    if args.command=='verify-access':
+        from .ingest import verify_access
+        try:
+            print(json.dumps(verify_access(args.as_of,args.output),indent=2))
+        except (ValueError,RuntimeError) as exc:
+            parser.error(str(exc))
+    elif args.command=='demo':
         from .demo import generate
         generate(args.data,args.as_of)
         evaluate(args.data,args.output,'demo',100000.)
     elif args.command=='ingest-live':
         from .ingest import fetch_calendar,fetch_news
-        fetch_calendar(args.as_of,args.output,charge_cap=args.charge_cap_per_run)
-        fetch_news(args.as_of,args.output)
+        try:
+            fetch_calendar(args.as_of,args.output,charge_cap=args.charge_cap_per_run)
+            fetch_news(args.as_of,args.output)
+        except (ValueError,RuntimeError) as exc:
+            parser.error(str(exc))
         print('Live normalized events/news saved; add matching trades.csv before evaluation.')
     else:
         evaluate(args.data,args.output,'observed',args.initial_capital,args.forecast_at,args.source_timezone)

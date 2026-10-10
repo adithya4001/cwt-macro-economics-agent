@@ -147,3 +147,23 @@ def fetch_news(as_of,output_dir):
           'dated_records':len(frame),'skipped_undated':undated,'backtest_policy':'available_at includes retrieval time'},indent=2))
     if frame.empty: raise RuntimeError('No dated news retrieved; check raw response instead of assuming neutral news')
     return frame
+
+
+def verify_access(as_of, output_dir):
+    """Check actual provider access and retrieve news without starting paid Actors."""
+    from .config import require_live_credentials
+    require_live_credentials()
+    token = os.environ['APIFY_TOKEN']
+    request_json('https://api.apify.com/v2/users/me', token)
+    actor = os.getenv('APIFY_ACTOR_ID', ACTOR_ID)
+    if not re.fullmatch(r'[A-Za-z0-9_~/-]+', actor):
+        raise ValueError('Invalid Actor ID')
+    actor_info = request_json('https://api.apify.com/v2/acts/' + quote(actor.replace('/', '~'), safe='~'), token)
+    news = fetch_news(as_of, output_dir)
+    report = {'checked_at': pd.Timestamp.now(tz='UTC').isoformat(),
+              'apify_authentication': 'verified', 'actor_access': 'verified',
+              'actor_id': actor_info['data']['id'], 'tavily_search': 'verified',
+              'dated_news_records': len(news), 'credentials_included': False,
+              'calendar_coverage_verified': False}
+    (Path(output_dir) / 'access_validation.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+    return report
