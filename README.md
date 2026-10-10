@@ -19,15 +19,18 @@ python -m cwt_macro demo
 
 Open `reports/demo/dashboard.html` for the standalone chart dashboard; read `reports/demo/evaluation_report.md` for metrics and methodology. The default demo uses the 180 calendar days **14 April-10 October 2026**, a fixed seed, synthetic releases/news, and four hypothetical permutations. Every output is labelled synthetic. It performs no network calls and needs no API tokens.
 
-For the exact verified Python 3.12 environment, first install `pip install -r requirements-tested.txt`, then `pip install -e . --no-deps`. `requirements.txt`/`pyproject.toml` provide broader compatible version ranges. Fourteen automated tests passed locally, including mocked provider contracts; authenticated network runs remain untested.
+For the exact verified Python 3.12 environment, first install `pip install -r requirements-tested.txt`, then `pip install -e . --no-deps`. `requirements.txt`/`pyproject.toml` provide broader compatible version ranges. Eighteen automated tests passed locally, including mocked provider contracts; authenticated network runs remain untested.
 
 ## Live ingestion
 
-Set `APIFY_TOKEN` and `TAVILY_API_KEY` in your local environment using your provider's token-management screen. `.env.example` lists variable names, but the application does not automatically load a `.env` file. Do not paste secrets into source code, commit them, or use personal tokens in email attachments. For reviewer access, use a separate scoped/revocable assessment token through a private channel, or ask reviewers to use their own credentials.
+Set `APIFY_TOKEN` and `TAVILY_API_KEY` in your local environment or a private `.env` file in the project root. `check-setup` and `ingest-live` automatically load this file; existing nonempty environment variables take precedence. `.env.example` has empty values, not usable credentials. Read [credential setup and reviewer handoff](docs/credential_setup.md). Do not paste secrets into source code, commit them, or use personal tokens in email attachments. For reviewer access, use separate scoped/revocable assessment credentials through a private channel.
 
 ```bash
+python -m cwt_macro check-setup
 python -m cwt_macro ingest-live --as-of 2026-10-10 --output data/live
 ```
+
+`check-setup` checks credential presence offline and never prints token values. It does not validate authentication or quota. Live ingestion requires **both** credentials before starting any provider run. The candidate currently has no provider accounts/tokens; the requested credential handoff remains unresolved until these are supplied.
 
 This starts six 30-day Apify requests, then searches the latest seven calendar days of news with Tavily. The documented candidate Actor is `scrapers_lat/economic-calendar-scraper`. Override it with `APIFY_ACTOR_ID` only if its output schema matches the adapter. The adapter uses GMT release times, handles raw percentage/K/M/B/T values, preserves raw service responses and writes run/dataset IDs to manifests. It fails on provider errors, missing timestamp/unit fields, absent core event families, and possible result truncation. Sources may not expose the full 180-day history; coverage must be verified rather than assumed.
 
