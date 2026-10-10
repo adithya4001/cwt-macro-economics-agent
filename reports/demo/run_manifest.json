@@ -1,0 +1,15 @@
+{
+  "mode": "demo",
+  "synthetic": true,
+  "api_execution": "not part of this evaluation; inspect ingestion manifests",
+  "data_dir": "data\\demo",
+  "initial_capital": 100000.0,
+  "forecast_at": "2026-10-12T15:30:00+00:00",
+  "seed": 42,
+  "min_train_opportunities": 50,
+  "test_opportunities_per_fold": 15,
+  "embargo_hours": 24,
+  "model_versions": {
+    "pandas": "3.0.6"
+  }
+}
