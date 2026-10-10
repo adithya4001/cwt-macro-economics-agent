@@ -11,7 +11,7 @@ Please note one separate limitation: the Apify calendar run succeeded but return
 
 The ZIP includes actual diagnostic manifests and Tavily news alongside source, setup instructions, outlook and the labelled synthetic demonstration. Historical comparable trade logs and original macro vintages are still required for observed-data evaluation; the reported ML metrics remain synthetic.
 
-Reviewer credential handoff is pending. No secrets are included in the public repository or this ZIP. The reproduction steps and live-validation details are in docs/credential_setup.md and docs/live_validation.md.
+Separate, scoped reviewer credentials are supplied only in the private email, never in this reusable public template. No secrets are included in the public repository or this ZIP. The reproduction steps and live-validation details are in docs/credential_setup.md and docs/live_validation.md.
 
 Kind regards,
 Vuppu Adithya Kumar

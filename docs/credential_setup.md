@@ -1,6 +1,6 @@
 # Reviewer credential setup and missing-token issue
 
-The recruiter's reply asks for actual Apify/Tavily API access. Both accounts are now active and credentials are privately configured. Actual Apify authentication, Actor access and Tavily news retrieval have been verified; see [live validation](live_validation.md). Reviewer credential handoff is still pending candidate authorization. The calendar run exposed the separate free-plan ten-record limit.
+The recruiter's reply asks for actual Apify/Tavily API access. Both accounts are now active and credentials are privately configured. Actual Apify authentication, Actor access and Tavily news retrieval have been verified; see [live validation](live_validation.md). Separate reviewer credentials have been created with candidate authorization and verified; private email delivery is checked in Gmail Sent. The calendar run exposed the separate free-plan ten-record limit.
 
 ## Candidate: obtain assessment credentials
 
@@ -47,5 +47,5 @@ After ingestion, real evaluation still requires comparable historical `trades.cs
 - Local `.env` loading and preflight: implemented and tested.
 - Actual Apify/Tavily credentials: privately configured and authenticated.
 - Authenticated access and Tavily search: verified. Apify calendar run: succeeded but capped, so full coverage is pending.
-- Credential handoff to Gilad: awaiting authorization for separate reviewer keys.
+- Reviewer credentials: separately created and verified with candidate authorization. Private email delivery is checked in Gmail Sent.
 - Trading logs and real-data evaluation: still pending.

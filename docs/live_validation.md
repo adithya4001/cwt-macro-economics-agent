@@ -27,4 +27,6 @@ The candidate is on Apify's free plan. Full historical calendar retrieval still 
 
 Historical trading logs and truthful original macro/news vintages are also missing. All ML performance figures and demonstration charts remain explicitly synthetic. Valid credentials resolve the missing-authentication prerequisite; they do not turn the synthetic backtest into observed trading performance.
 
-Reviewer credential creation/handoff is a separate access change and requires candidate authorization. No reviewer credential has yet been created or emailed in this revision.
+Separate reviewer credentials were created with candidate authorization. Apify permissions are restricted to Actor i7u7BI1hziHTZOVaE (Read, Run, List runs), default run storages, restricted Actor execution, no full-permission Actors, and expiry on 24 October 2026. Tavily has a separate development key with a 100-credit monthly limit. These values are never included in this document or public artifacts; private email delivery is checked in Gmail Sent.
+
+The exact reviewer keys passed `verify-access` (Actor run listing/metadata and an actual Tavily search). This diagnostic authenticates the scoped operation rather than requesting access to the candidate user profile. A one-day reviewer Actor smoke test is recorded in data/reviewer_validation/reviewer_actor_smoke.json in the ZIP; it is not evidence of full historical coverage.
