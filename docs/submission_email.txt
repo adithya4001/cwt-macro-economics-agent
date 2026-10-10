@@ -3,15 +3,21 @@ Subject: Macro Economics Agent Internship Assessment - Vuppu Adithya Kumar
 
 Dear Gilad,
 
-Please find my implementation of the Macro Economics Agent assessment attached, along with the evaluation report and one-page US macroeconomic outlook.
+Please find attached my implementation of the Macro Economics Agent internship assessment, its evaluation report, and a one-page US macroeconomic outlook.
 
-The Python pipeline includes Apify calendar and Tavily news adapters, a SQLite point-in-time join, strategy-permutation return prediction, chronological walk-forward evaluation, and visual outputs.
+Public GitHub repository:
+https://github.com/adithya4001/cwt-macro-economics-agent
 
-The included demonstration is explicitly synthetic. Historical trading logs and service credentials were not provided with the assignment, so I have not represented the demo metrics as real trading performance or claimed authenticated Apify/Tavily runs. The README explains how to run ingestion and evaluate comparable real logs once available.
+The Python pipeline includes Apify calendar and Tavily news adapters, a SQLite point-in-time join, strategy-permutation return prediction, chronological walk-forward evaluation, and charts. Setup and reproduction instructions are in the README. Fourteen automated tests and the GitHub validation workflow passed.
 
-Repository: https://github.com/adithya4001/cwt-macro-economics-agent
+The demonstration and its performance metrics are explicitly synthetic. Historical trading logs and API credentials were not included with the assignment, so authenticated Apify/Tavily retrieval and real trading evaluation remain pending. The configured candidate Actor is scrapers_lat/economic-calendar-scraper; no live run IDs or tokens are claimed. Exa was not used; the news integration uses Tavily.
 
-Please let me know whether you can provide the historical counterfactual trading logs and approved API access for the real-data validation stage, and your GitHub username for private repository access. API secrets will be shared through an agreed private channel rather than committed to source code.
+Could you please provide comparable historical logs and approved API access for the real-data validation stage? API secrets can be exchanged through an agreed private channel and are excluded from the repository and attachments.
+
+Attachments:
+1. CWT_Macro_Agent_Assignment.zip - source, synthetic inputs, reports, charts and reproduction instructions
+2. macro_outlook_2026-10-10.pdf - one-page macro outlook
+3. evaluation_report.md - methodology and synthetic Sharpe, Sortino and maximum drawdown results
 
 Kind regards,
 Vuppu Adithya Kumar
