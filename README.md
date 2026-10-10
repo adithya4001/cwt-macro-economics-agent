@@ -31,7 +31,7 @@ python -m cwt_macro verify-access --as-of 2026-10-10 --output data/live
 python -m cwt_macro ingest-live --as-of 2026-10-10 --output data/live
 ```
 
-`check-setup` checks credential presence offline and never prints token values. It does not validate authentication or quota. Live ingestion requires **both** credentials before starting any provider run. Both accounts are now active and authenticated access has been verified. Reviewer credentials must be supplied privately; access creation/handoff is still awaiting candidate authorization.
+`check-setup` checks credential presence offline and never prints token values. It does not validate authentication or quota. Live ingestion requires **both** credentials before starting any provider run. Both accounts are now active and authenticated access has been verified. Separate reviewer credentials have been created with candidate authorization and verified. They are supplied privately by email, excluded from public artifacts.
 
 This starts six 30-day Apify requests, then searches the latest seven calendar days of news with Tavily. The documented candidate Actor is `scrapers_lat/economic-calendar-scraper`. Override it with `APIFY_ACTOR_ID` only if its output schema matches the adapter. The adapter uses GMT release times, handles raw percentage/K/M/B/T values, preserves raw service responses and writes run/dataset IDs to manifests. It fails on provider errors, missing timestamp/unit fields, absent core event families, and possible result truncation. Sources may not expose the full 180-day history; coverage must be verified rather than assumed.
 
