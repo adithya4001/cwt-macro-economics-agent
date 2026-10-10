@@ -1,0 +1,17 @@
+Recipient: gilad@crowdwisdomtrading.com
+Subject: Macro Economics Agent Internship Assessment - Vuppu Adithya Kumar
+
+Dear Gilad,
+
+Please find my implementation of the Macro Economics Agent assessment attached, along with the evaluation report and one-page US macroeconomic outlook.
+
+The Python pipeline includes Apify calendar and Tavily news adapters, a SQLite point-in-time join, strategy-permutation return prediction, chronological walk-forward evaluation, and visual outputs.
+
+The included demonstration is explicitly synthetic. Historical trading logs and service credentials were not provided with the assignment, so I have not represented the demo metrics as real trading performance or claimed authenticated Apify/Tavily runs. The README explains how to run ingestion and evaluate comparable real logs once available.
+
+Repository: https://github.com/adithya4001/cwt-macro-economics-agent
+
+Please let me know whether you can provide the historical counterfactual trading logs and approved API access for the real-data validation stage, and your GitHub username for private repository access. API secrets will be shared through an agreed private channel rather than committed to source code.
+
+Kind regards,
+Vuppu Adithya Kumar
