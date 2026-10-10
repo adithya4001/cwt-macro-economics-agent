@@ -154,11 +154,14 @@ def verify_access(as_of, output_dir):
     from .config import require_live_credentials
     require_live_credentials()
     token = os.environ['APIFY_TOKEN']
-    request_json('https://api.apify.com/v2/users/me', token)
     actor = os.getenv('APIFY_ACTOR_ID', ACTOR_ID)
     if not re.fullmatch(r'[A-Za-z0-9_~/-]+', actor):
         raise ValueError('Invalid Actor ID')
-    actor_info = request_json('https://api.apify.com/v2/acts/' + quote(actor.replace('/', '~'), safe='~'), token)
+    actor_url = 'https://api.apify.com/v2/acts/' + quote(actor.replace('/', '~'), safe='~')
+    # Authenticate the exact private operation reviewers need. Scoped Actor
+    # tokens intentionally cannot read the candidate's unrelated user profile.
+    request_json(actor_url + '/runs?limit=1', token)
+    actor_info = request_json(actor_url, token)
     news = fetch_news(as_of, output_dir)
     report = {'checked_at': pd.Timestamp.now(tz='UTC').isoformat(),
               'apify_authentication': 'verified', 'actor_access': 'verified',
