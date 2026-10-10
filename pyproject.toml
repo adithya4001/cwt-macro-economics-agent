@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cwt-macro-agent"
+version = "0.1.0"
+description = "Point-in-time macro features and walk-forward strategy permutation selection"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2.0,<4", "scikit-learn>=1.4,<2", "matplotlib>=3.7,<4", "tzdata>=2024.1"]
+
+[project.scripts]
+cwt-macro = "cwt_macro.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
