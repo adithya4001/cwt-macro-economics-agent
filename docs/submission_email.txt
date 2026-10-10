@@ -8,7 +8,7 @@ Please find attached my implementation of the Macro Economics Agent internship a
 Public GitHub repository:
 https://github.com/adithya4001/cwt-macro-economics-agent
 
-The Python pipeline includes Apify calendar and Tavily news adapters, a SQLite point-in-time join, strategy-permutation return prediction, chronological walk-forward evaluation, and charts. Setup and reproduction instructions are in the README. Fourteen automated tests and the GitHub validation workflow passed.
+The Python pipeline includes Apify calendar and Tavily news adapters, a SQLite point-in-time join, strategy-permutation return prediction, chronological walk-forward evaluation, and charts. Setup and reproduction instructions are in the README. Eighteen automated tests and the GitHub validation workflow passed.
 
 The demonstration and its performance metrics are explicitly synthetic. Historical trading logs and API credentials were not included with the assignment, so authenticated Apify/Tavily retrieval and real trading evaluation remain pending. The configured candidate Actor is scrapers_lat/economic-calendar-scraper; no live run IDs or tokens are claimed. Exa was not used; the news integration uses Tavily.
 
