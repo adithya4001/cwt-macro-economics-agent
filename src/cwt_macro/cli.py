@@ -2,15 +2,15 @@
 import argparse
 from pathlib import Path
 import json
-import pandas as pd
-from .data import Store,validate_trades,validate_events,validate_news,NEWS_COLUMNS
-from .demo import generate
-from .features import build_features,future_panel,FEATURES
-from .model import walk_forward,daily_policies,select_model
-from .report import write_report
+from .config import load_env_file, setup_status, require_live_credentials
 
 
 def evaluate(data_dir,output_dir,mode,initial_capital,forecast_at=None,timezone=None):
+    import pandas as pd
+    from .data import Store,validate_trades,validate_events,validate_news,NEWS_COLUMNS
+    from .features import build_features,future_panel,FEATURES
+    from .model import walk_forward,daily_policies,select_model
+    from .report import write_report
     data_dir,output_dir=Path(data_dir),Path(output_dir)
     output_dir.mkdir(parents=True,exist_ok=True)
     if mode!='demo' and (data_dir/'DATA_NOTICE.md').exists() and 'SYNTHETIC' in (data_dir/'DATA_NOTICE.md').read_text():
@@ -46,7 +46,9 @@ def evaluate(data_dir,output_dir,mode,initial_capital,forecast_at=None,timezone=
 
 def main():
     parser=argparse.ArgumentParser(description='CWT Macro Agent assessment pipeline')
+    parser.add_argument('--env-file',help='Private credential file; defaults to .env in the working directory')
     sub=parser.add_subparsers(dest='command',required=True)
+    sub.add_parser('check-setup',help='Check required credential presence offline without exposing values or charging services')
     demo=sub.add_parser('demo',help='Generate labelled synthetic data and run complete offline pipeline')
     demo.add_argument('--as-of',default='2026-10-10');demo.add_argument('--output',default='reports/demo')
     demo.add_argument('--data',default='data/demo')
@@ -58,7 +60,20 @@ def main():
     evaluation.add_argument('--initial-capital',type=float,default=100000.)
     evaluation.add_argument('--forecast-at');evaluation.add_argument('--source-timezone')
     args=parser.parse_args()
+    try:
+        if args.command in ('check-setup','ingest-live'):
+            load_env_file(args.env_file or '.env',required=bool(args.env_file))
+        if args.command=='check-setup':
+            status=setup_status()
+            print(json.dumps(status,indent=2))
+            if status['missing_settings']: raise SystemExit(2)
+            return
+        if args.command=='ingest-live':
+            require_live_credentials()
+    except ValueError as exc:
+        parser.error(str(exc))
     if args.command=='demo':
+        from .demo import generate
         generate(args.data,args.as_of)
         evaluate(args.data,args.output,'demo',100000.)
     elif args.command=='ingest-live':
