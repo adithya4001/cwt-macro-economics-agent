@@ -1,23 +1,17 @@
-Recipient: gilad@crowdwisdomtrading.com
-Subject: Macro Economics Agent Internship Assessment - Vuppu Adithya Kumar
+Subject: Updated Macro Economics Agent assessment — verified API access
 
 Dear Gilad,
 
-Please find attached my implementation of the Macro Economics Agent internship assessment, its evaluation report, and a one-page US macroeconomic outlook.
+Thank you for flagging the missing credentials. I have now configured both services and verified Apify authentication, access to the configured Actor, and a real Tavily news search. The updated package adds automatic private .env loading and a verify-access command so you can validate both services before running the demonstration.
 
-Public GitHub repository:
+Public repository:
 https://github.com/adithya4001/cwt-macro-economics-agent
 
-The Python pipeline includes Apify calendar and Tavily news adapters, a SQLite point-in-time join, strategy-permutation return prediction, chronological walk-forward evaluation, and charts. Setup and reproduction instructions are in the README. Eighteen automated tests and the GitHub validation workflow passed.
+Please note one separate limitation: the Apify calendar run succeeded but returned the Actor's ten-record free-plan cap. Its actual run ID is BtB5DFfyTctafnI5O and dataset ID is 3GLzaqnKIsjtGa9sb. Full 180-day calendar coverage is not claimed. The configured Actor is scrapers_lat/economic-calendar-scraper (platform ID i7u7BI1hziHTZOVaE).
 
-The demonstration and its performance metrics are explicitly synthetic. Historical trading logs and API credentials were not included with the assignment, so authenticated Apify/Tavily retrieval and real trading evaluation remain pending. The configured candidate Actor is scrapers_lat/economic-calendar-scraper; no live run IDs or tokens are claimed. Exa was not used; the news integration uses Tavily.
+The ZIP includes actual diagnostic manifests and Tavily news alongside source, setup instructions, outlook and the labelled synthetic demonstration. Historical comparable trade logs and original macro vintages are still required for observed-data evaluation; the reported ML metrics remain synthetic.
 
-Could you please provide comparable historical logs and approved API access for the real-data validation stage? API secrets can be exchanged through an agreed private channel and are excluded from the repository and attachments.
-
-Attachments:
-1. CWT_Macro_Agent_Assignment.zip - source, synthetic inputs, reports, charts and reproduction instructions
-2. macro_outlook_2026-10-10.pdf - one-page macro outlook
-3. evaluation_report.md - methodology and synthetic Sharpe, Sortino and maximum drawdown results
+Reviewer credential handoff is pending. No secrets are included in the public repository or this ZIP. The reproduction steps and live-validation details are in docs/credential_setup.md and docs/live_validation.md.
 
 Kind regards,
 Vuppu Adithya Kumar

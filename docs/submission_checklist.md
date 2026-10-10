@@ -14,7 +14,7 @@ Screenshot deadline: **13 October 2026**. The task PDF requests delivery within 
 ## Required before claiming full assignment completion
 
 1. Obtain real, comparable counterfactual trade logs and archived point-in-time macro snapshots. The company did not include these with the supplied attachment.
-2. Configure assessment-scoped Apify/Tavily credentials and run live ingestion. Verify 180-day CPI/employment/FOMC coverage, sample timestamps against original releases, raw forecast/actual units and result-cap handling. Record actual Actor/run/dataset IDs and exact inputs.
+2. Private credentials are configured, authentication and Tavily search verified. A real calendar run succeeded but returned the ten-record free-plan cap. Obtain suitable calendar coverage and authorize separate reviewer credential handoff. Verify 180-day CPI/employment/FOMC coverage, sample timestamps against original releases, raw forecast/actual units and result-cap handling. Record actual Actor/run/dataset IDs and exact inputs.
 3. Run observed-data evaluation; review missing macro coverage and replace synthetic demonstrations with the resulting real-data report. Retrospective collection time must not be changed to release time to inflate historical coverage.
 4. Source and nonconfidential demonstration reports are uploaded to the public repository, [adithya4001/cwt-macro-economics-agent](https://github.com/adithya4001/cwt-macro-economics-agent). The recruiter can access the link directly. Keep personal tokens, confidential logs and API responses out of Git history.
 5. Submit by email to **gilad@crowdwisdomtrading.com**, with repository link, outlook, evaluation report and access/reproduction details. Sending via Internshala alone is insufficient according to the screenshot.

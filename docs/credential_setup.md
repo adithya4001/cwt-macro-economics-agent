@@ -1,6 +1,6 @@
 # Reviewer credential setup and missing-token issue
 
-The recruiter's reply asks for actual Apify/Tavily API access. No account or token has been supplied by the candidate. This is an unresolved external prerequisite, not evidence that the offline demonstration has failed. A code update cannot manufacture valid service credentials.
+The recruiter's reply asks for actual Apify/Tavily API access. Both accounts are now active and credentials are privately configured. Actual Apify authentication, Actor access and Tavily news retrieval have been verified; see [live validation](live_validation.md). Reviewer credential handoff is still pending candidate authorization. The calendar run exposed the separate free-plan ten-record limit.
 
 ## Candidate: obtain assessment credentials
 
@@ -45,6 +45,7 @@ After ingestion, real evaluation still requires comparable historical `trades.cs
 ## Current handoff status
 
 - Local `.env` loading and preflight: implemented and tested.
-- Actual Apify/Tavily credentials: not available.
-- Authenticated live runs / credential handoff to Gilad: blocked until accounts and assessment credentials are supplied.
+- Actual Apify/Tavily credentials: privately configured and authenticated.
+- Authenticated access and Tavily search: verified. Apify calendar run: succeeded but capped, so full coverage is pending.
+- Credential handoff to Gilad: awaiting authorization for separate reviewer keys.
 - Trading logs and real-data evaluation: still pending.
