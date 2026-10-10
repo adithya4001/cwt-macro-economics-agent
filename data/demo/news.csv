@@ -1,0 +1,130 @@
+news_id,title,url,published_at,available_at,sentiment
+SYNTH-NEWS-0,Synthetic growth and recovery,https://example.invalid/synthetic/0,2026-04-14 12:45:00+00:00,2026-04-14 12:46:00+00:00,1.0
+SYNTH-NEWS-1,Synthetic growth and recovery,https://example.invalid/synthetic/1,2026-04-15 12:45:00+00:00,2026-04-15 12:46:00+00:00,1.0
+SYNTH-NEWS-2,Synthetic growth and recovery,https://example.invalid/synthetic/2,2026-04-16 12:45:00+00:00,2026-04-16 12:46:00+00:00,1.0
+SYNTH-NEWS-3,Synthetic growth and recovery,https://example.invalid/synthetic/3,2026-04-17 12:45:00+00:00,2026-04-17 12:46:00+00:00,1.0
+SYNTH-NEWS-4,Synthetic growth and recovery,https://example.invalid/synthetic/4,2026-04-20 12:45:00+00:00,2026-04-20 12:46:00+00:00,1.0
+SYNTH-NEWS-5,Synthetic growth and recovery,https://example.invalid/synthetic/5,2026-04-21 12:45:00+00:00,2026-04-21 12:46:00+00:00,1.0
+SYNTH-NEWS-6,Synthetic growth and recovery,https://example.invalid/synthetic/6,2026-04-22 12:45:00+00:00,2026-04-22 12:46:00+00:00,1.0
+SYNTH-NEWS-7,Synthetic growth and recovery,https://example.invalid/synthetic/7,2026-04-23 12:45:00+00:00,2026-04-23 12:46:00+00:00,1.0
+SYNTH-NEWS-8,Synthetic growth and recovery,https://example.invalid/synthetic/8,2026-04-24 12:45:00+00:00,2026-04-24 12:46:00+00:00,1.0
+SYNTH-NEWS-9,Synthetic growth and recovery,https://example.invalid/synthetic/9,2026-04-27 12:45:00+00:00,2026-04-27 12:46:00+00:00,1.0
+SYNTH-NEWS-10,Synthetic growth and recovery,https://example.invalid/synthetic/10,2026-04-28 12:45:00+00:00,2026-04-28 12:46:00+00:00,1.0
+SYNTH-NEWS-11,Synthetic growth and recovery,https://example.invalid/synthetic/11,2026-04-29 12:45:00+00:00,2026-04-29 12:46:00+00:00,1.0
+SYNTH-NEWS-12,Synthetic growth and recovery,https://example.invalid/synthetic/12,2026-04-30 12:45:00+00:00,2026-04-30 12:46:00+00:00,1.0
+SYNTH-NEWS-13,Synthetic growth and recovery,https://example.invalid/synthetic/13,2026-05-01 12:45:00+00:00,2026-05-01 12:46:00+00:00,1.0
+SYNTH-NEWS-14,Synthetic growth and recovery,https://example.invalid/synthetic/14,2026-05-04 12:45:00+00:00,2026-05-04 12:46:00+00:00,1.0
+SYNTH-NEWS-15,Synthetic growth and recovery,https://example.invalid/synthetic/15,2026-05-05 12:45:00+00:00,2026-05-05 12:46:00+00:00,1.0
+SYNTH-NEWS-16,Synthetic growth and recovery,https://example.invalid/synthetic/16,2026-05-06 12:45:00+00:00,2026-05-06 12:46:00+00:00,1.0
+SYNTH-NEWS-17,Synthetic growth and recovery,https://example.invalid/synthetic/17,2026-05-07 12:45:00+00:00,2026-05-07 12:46:00+00:00,1.0
+SYNTH-NEWS-18,Synthetic growth and recovery,https://example.invalid/synthetic/18,2026-05-08 12:45:00+00:00,2026-05-08 12:46:00+00:00,1.0
+SYNTH-NEWS-19,Synthetic growth and recovery,https://example.invalid/synthetic/19,2026-05-11 12:45:00+00:00,2026-05-11 12:46:00+00:00,1.0
+SYNTH-NEWS-20,Synthetic growth and recovery,https://example.invalid/synthetic/20,2026-05-12 12:45:00+00:00,2026-05-12 12:46:00+00:00,1.0
+SYNTH-NEWS-21,Synthetic growth and recovery,https://example.invalid/synthetic/21,2026-05-13 12:45:00+00:00,2026-05-13 12:46:00+00:00,1.0
+SYNTH-NEWS-22,Synthetic growth and recovery,https://example.invalid/synthetic/22,2026-05-14 12:45:00+00:00,2026-05-14 12:46:00+00:00,1.0
+SYNTH-NEWS-23,Synthetic growth and recovery,https://example.invalid/synthetic/23,2026-05-15 12:45:00+00:00,2026-05-15 12:46:00+00:00,1.0
+SYNTH-NEWS-24,Synthetic growth and recovery,https://example.invalid/synthetic/24,2026-05-18 12:45:00+00:00,2026-05-18 12:46:00+00:00,1.0
+SYNTH-NEWS-25,Synthetic growth and recovery,https://example.invalid/synthetic/25,2026-05-19 12:45:00+00:00,2026-05-19 12:46:00+00:00,1.0
+SYNTH-NEWS-26,Synthetic growth and recovery,https://example.invalid/synthetic/26,2026-05-20 12:45:00+00:00,2026-05-20 12:46:00+00:00,1.0
+SYNTH-NEWS-27,Synthetic growth and recovery,https://example.invalid/synthetic/27,2026-05-21 12:45:00+00:00,2026-05-21 12:46:00+00:00,1.0
+SYNTH-NEWS-28,Synthetic growth and recovery,https://example.invalid/synthetic/28,2026-05-22 12:45:00+00:00,2026-05-22 12:46:00+00:00,1.0
+SYNTH-NEWS-29,Synthetic growth and recovery,https://example.invalid/synthetic/29,2026-05-25 12:45:00+00:00,2026-05-25 12:46:00+00:00,1.0
+SYNTH-NEWS-30,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/30,2026-05-26 12:45:00+00:00,2026-05-26 12:46:00+00:00,-1.0
+SYNTH-NEWS-31,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/31,2026-05-27 12:45:00+00:00,2026-05-27 12:46:00+00:00,-1.0
+SYNTH-NEWS-32,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/32,2026-05-28 12:45:00+00:00,2026-05-28 12:46:00+00:00,-1.0
+SYNTH-NEWS-33,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/33,2026-05-29 12:45:00+00:00,2026-05-29 12:46:00+00:00,-1.0
+SYNTH-NEWS-34,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/34,2026-06-01 12:45:00+00:00,2026-06-01 12:46:00+00:00,-1.0
+SYNTH-NEWS-35,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/35,2026-06-02 12:45:00+00:00,2026-06-02 12:46:00+00:00,-1.0
+SYNTH-NEWS-36,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/36,2026-06-03 12:45:00+00:00,2026-06-03 12:46:00+00:00,-1.0
+SYNTH-NEWS-37,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/37,2026-06-04 12:45:00+00:00,2026-06-04 12:46:00+00:00,-1.0
+SYNTH-NEWS-38,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/38,2026-06-05 12:45:00+00:00,2026-06-05 12:46:00+00:00,-1.0
+SYNTH-NEWS-39,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/39,2026-06-08 12:45:00+00:00,2026-06-08 12:46:00+00:00,-1.0
+SYNTH-NEWS-40,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/40,2026-06-09 12:45:00+00:00,2026-06-09 12:46:00+00:00,-1.0
+SYNTH-NEWS-41,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/41,2026-06-10 12:45:00+00:00,2026-06-10 12:46:00+00:00,-1.0
+SYNTH-NEWS-42,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/42,2026-06-11 12:45:00+00:00,2026-06-11 12:46:00+00:00,-1.0
+SYNTH-NEWS-43,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/43,2026-06-12 12:45:00+00:00,2026-06-12 12:46:00+00:00,-1.0
+SYNTH-NEWS-44,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/44,2026-06-15 12:45:00+00:00,2026-06-15 12:46:00+00:00,-1.0
+SYNTH-NEWS-45,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/45,2026-06-16 12:45:00+00:00,2026-06-16 12:46:00+00:00,-1.0
+SYNTH-NEWS-46,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/46,2026-06-17 12:45:00+00:00,2026-06-17 12:46:00+00:00,-1.0
+SYNTH-NEWS-47,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/47,2026-06-18 12:45:00+00:00,2026-06-18 12:46:00+00:00,-1.0
+SYNTH-NEWS-48,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/48,2026-06-19 12:45:00+00:00,2026-06-19 12:46:00+00:00,-1.0
+SYNTH-NEWS-49,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/49,2026-06-22 12:45:00+00:00,2026-06-22 12:46:00+00:00,-1.0
+SYNTH-NEWS-50,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/50,2026-06-23 12:45:00+00:00,2026-06-23 12:46:00+00:00,-1.0
+SYNTH-NEWS-51,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/51,2026-06-24 12:45:00+00:00,2026-06-24 12:46:00+00:00,-1.0
+SYNTH-NEWS-52,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/52,2026-06-25 12:45:00+00:00,2026-06-25 12:46:00+00:00,-1.0
+SYNTH-NEWS-53,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/53,2026-06-26 12:45:00+00:00,2026-06-26 12:46:00+00:00,-1.0
+SYNTH-NEWS-54,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/54,2026-06-29 12:45:00+00:00,2026-06-29 12:46:00+00:00,-1.0
+SYNTH-NEWS-55,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/55,2026-06-30 12:45:00+00:00,2026-06-30 12:46:00+00:00,-1.0
+SYNTH-NEWS-56,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/56,2026-07-01 12:45:00+00:00,2026-07-01 12:46:00+00:00,-1.0
+SYNTH-NEWS-57,Synthetic growth and recovery,https://example.invalid/synthetic/57,2026-07-02 12:45:00+00:00,2026-07-02 12:46:00+00:00,1.0
+SYNTH-NEWS-58,Synthetic growth and recovery,https://example.invalid/synthetic/58,2026-07-03 12:45:00+00:00,2026-07-03 12:46:00+00:00,1.0
+SYNTH-NEWS-59,Synthetic growth and recovery,https://example.invalid/synthetic/59,2026-07-06 12:45:00+00:00,2026-07-06 12:46:00+00:00,1.0
+SYNTH-NEWS-60,Synthetic growth and recovery,https://example.invalid/synthetic/60,2026-07-07 12:45:00+00:00,2026-07-07 12:46:00+00:00,1.0
+SYNTH-NEWS-61,Synthetic growth and recovery,https://example.invalid/synthetic/61,2026-07-08 12:45:00+00:00,2026-07-08 12:46:00+00:00,1.0
+SYNTH-NEWS-62,Synthetic growth and recovery,https://example.invalid/synthetic/62,2026-07-09 12:45:00+00:00,2026-07-09 12:46:00+00:00,1.0
+SYNTH-NEWS-63,Synthetic growth and recovery,https://example.invalid/synthetic/63,2026-07-10 12:45:00+00:00,2026-07-10 12:46:00+00:00,1.0
+SYNTH-NEWS-64,Synthetic growth and recovery,https://example.invalid/synthetic/64,2026-07-13 12:45:00+00:00,2026-07-13 12:46:00+00:00,1.0
+SYNTH-NEWS-65,Synthetic growth and recovery,https://example.invalid/synthetic/65,2026-07-14 12:45:00+00:00,2026-07-14 12:46:00+00:00,1.0
+SYNTH-NEWS-66,Synthetic growth and recovery,https://example.invalid/synthetic/66,2026-07-15 12:45:00+00:00,2026-07-15 12:46:00+00:00,1.0
+SYNTH-NEWS-67,Synthetic growth and recovery,https://example.invalid/synthetic/67,2026-07-16 12:45:00+00:00,2026-07-16 12:46:00+00:00,1.0
+SYNTH-NEWS-68,Synthetic growth and recovery,https://example.invalid/synthetic/68,2026-07-17 12:45:00+00:00,2026-07-17 12:46:00+00:00,1.0
+SYNTH-NEWS-69,Synthetic growth and recovery,https://example.invalid/synthetic/69,2026-07-20 12:45:00+00:00,2026-07-20 12:46:00+00:00,1.0
+SYNTH-NEWS-70,Synthetic growth and recovery,https://example.invalid/synthetic/70,2026-07-21 12:45:00+00:00,2026-07-21 12:46:00+00:00,1.0
+SYNTH-NEWS-71,Synthetic growth and recovery,https://example.invalid/synthetic/71,2026-07-22 12:45:00+00:00,2026-07-22 12:46:00+00:00,1.0
+SYNTH-NEWS-72,Synthetic growth and recovery,https://example.invalid/synthetic/72,2026-07-23 12:45:00+00:00,2026-07-23 12:46:00+00:00,1.0
+SYNTH-NEWS-73,Synthetic growth and recovery,https://example.invalid/synthetic/73,2026-07-24 12:45:00+00:00,2026-07-24 12:46:00+00:00,1.0
+SYNTH-NEWS-74,Synthetic growth and recovery,https://example.invalid/synthetic/74,2026-07-27 12:45:00+00:00,2026-07-27 12:46:00+00:00,1.0
+SYNTH-NEWS-75,Synthetic growth and recovery,https://example.invalid/synthetic/75,2026-07-28 12:45:00+00:00,2026-07-28 12:46:00+00:00,1.0
+SYNTH-NEWS-76,Synthetic growth and recovery,https://example.invalid/synthetic/76,2026-07-29 12:45:00+00:00,2026-07-29 12:46:00+00:00,1.0
+SYNTH-NEWS-77,Synthetic growth and recovery,https://example.invalid/synthetic/77,2026-07-30 12:45:00+00:00,2026-07-30 12:46:00+00:00,1.0
+SYNTH-NEWS-78,Synthetic growth and recovery,https://example.invalid/synthetic/78,2026-07-31 12:45:00+00:00,2026-07-31 12:46:00+00:00,1.0
+SYNTH-NEWS-79,Synthetic growth and recovery,https://example.invalid/synthetic/79,2026-08-03 12:45:00+00:00,2026-08-03 12:46:00+00:00,1.0
+SYNTH-NEWS-80,Synthetic growth and recovery,https://example.invalid/synthetic/80,2026-08-04 12:45:00+00:00,2026-08-04 12:46:00+00:00,1.0
+SYNTH-NEWS-81,Synthetic growth and recovery,https://example.invalid/synthetic/81,2026-08-05 12:45:00+00:00,2026-08-05 12:46:00+00:00,1.0
+SYNTH-NEWS-82,Synthetic growth and recovery,https://example.invalid/synthetic/82,2026-08-06 12:45:00+00:00,2026-08-06 12:46:00+00:00,1.0
+SYNTH-NEWS-83,Synthetic growth and recovery,https://example.invalid/synthetic/83,2026-08-07 12:45:00+00:00,2026-08-07 12:46:00+00:00,1.0
+SYNTH-NEWS-84,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/84,2026-08-10 12:45:00+00:00,2026-08-10 12:46:00+00:00,-1.0
+SYNTH-NEWS-85,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/85,2026-08-11 12:45:00+00:00,2026-08-11 12:46:00+00:00,-1.0
+SYNTH-NEWS-86,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/86,2026-08-12 12:45:00+00:00,2026-08-12 12:46:00+00:00,-1.0
+SYNTH-NEWS-87,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/87,2026-08-13 12:45:00+00:00,2026-08-13 12:46:00+00:00,-1.0
+SYNTH-NEWS-88,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/88,2026-08-14 12:45:00+00:00,2026-08-14 12:46:00+00:00,-1.0
+SYNTH-NEWS-89,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/89,2026-08-17 12:45:00+00:00,2026-08-17 12:46:00+00:00,-1.0
+SYNTH-NEWS-90,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/90,2026-08-18 12:45:00+00:00,2026-08-18 12:46:00+00:00,-1.0
+SYNTH-NEWS-91,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/91,2026-08-19 12:45:00+00:00,2026-08-19 12:46:00+00:00,-1.0
+SYNTH-NEWS-92,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/92,2026-08-20 12:45:00+00:00,2026-08-20 12:46:00+00:00,-1.0
+SYNTH-NEWS-93,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/93,2026-08-21 12:45:00+00:00,2026-08-21 12:46:00+00:00,-1.0
+SYNTH-NEWS-94,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/94,2026-08-24 12:45:00+00:00,2026-08-24 12:46:00+00:00,-1.0
+SYNTH-NEWS-95,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/95,2026-08-25 12:45:00+00:00,2026-08-25 12:46:00+00:00,-1.0
+SYNTH-NEWS-96,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/96,2026-08-26 12:45:00+00:00,2026-08-26 12:46:00+00:00,-1.0
+SYNTH-NEWS-97,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/97,2026-08-27 12:45:00+00:00,2026-08-27 12:46:00+00:00,-1.0
+SYNTH-NEWS-98,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/98,2026-08-28 12:45:00+00:00,2026-08-28 12:46:00+00:00,-1.0
+SYNTH-NEWS-99,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/99,2026-08-31 12:45:00+00:00,2026-08-31 12:46:00+00:00,-1.0
+SYNTH-NEWS-100,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/100,2026-09-01 12:45:00+00:00,2026-09-01 12:46:00+00:00,-1.0
+SYNTH-NEWS-101,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/101,2026-09-02 12:45:00+00:00,2026-09-02 12:46:00+00:00,-1.0
+SYNTH-NEWS-102,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/102,2026-09-03 12:45:00+00:00,2026-09-03 12:46:00+00:00,-1.0
+SYNTH-NEWS-103,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/103,2026-09-04 12:45:00+00:00,2026-09-04 12:46:00+00:00,-1.0
+SYNTH-NEWS-104,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/104,2026-09-07 12:45:00+00:00,2026-09-07 12:46:00+00:00,-1.0
+SYNTH-NEWS-105,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/105,2026-09-08 12:45:00+00:00,2026-09-08 12:46:00+00:00,-1.0
+SYNTH-NEWS-106,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/106,2026-09-09 12:45:00+00:00,2026-09-09 12:46:00+00:00,-1.0
+SYNTH-NEWS-107,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/107,2026-09-10 12:45:00+00:00,2026-09-10 12:46:00+00:00,-1.0
+SYNTH-NEWS-108,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/108,2026-09-11 12:45:00+00:00,2026-09-11 12:46:00+00:00,-1.0
+SYNTH-NEWS-109,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/109,2026-09-14 12:45:00+00:00,2026-09-14 12:46:00+00:00,-1.0
+SYNTH-NEWS-110,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/110,2026-09-15 12:45:00+00:00,2026-09-15 12:46:00+00:00,-1.0
+SYNTH-NEWS-111,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/111,2026-09-16 12:45:00+00:00,2026-09-16 12:46:00+00:00,-1.0
+SYNTH-NEWS-112,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/112,2026-09-17 12:45:00+00:00,2026-09-17 12:46:00+00:00,-1.0
+SYNTH-NEWS-113,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/113,2026-09-18 12:45:00+00:00,2026-09-18 12:46:00+00:00,-1.0
+SYNTH-NEWS-114,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/114,2026-09-21 12:45:00+00:00,2026-09-21 12:46:00+00:00,-1.0
+SYNTH-NEWS-115,Synthetic slowdown and weak hiring,https://example.invalid/synthetic/115,2026-09-22 12:45:00+00:00,2026-09-22 12:46:00+00:00,-1.0
+SYNTH-NEWS-116,Synthetic growth and recovery,https://example.invalid/synthetic/116,2026-09-23 12:45:00+00:00,2026-09-23 12:46:00+00:00,1.0
+SYNTH-NEWS-117,Synthetic growth and recovery,https://example.invalid/synthetic/117,2026-09-24 12:45:00+00:00,2026-09-24 12:46:00+00:00,1.0
+SYNTH-NEWS-118,Synthetic growth and recovery,https://example.invalid/synthetic/118,2026-09-25 12:45:00+00:00,2026-09-25 12:46:00+00:00,1.0
+SYNTH-NEWS-119,Synthetic growth and recovery,https://example.invalid/synthetic/119,2026-09-28 12:45:00+00:00,2026-09-28 12:46:00+00:00,1.0
+SYNTH-NEWS-120,Synthetic growth and recovery,https://example.invalid/synthetic/120,2026-09-29 12:45:00+00:00,2026-09-29 12:46:00+00:00,1.0
+SYNTH-NEWS-121,Synthetic growth and recovery,https://example.invalid/synthetic/121,2026-09-30 12:45:00+00:00,2026-09-30 12:46:00+00:00,1.0
+SYNTH-NEWS-122,Synthetic growth and recovery,https://example.invalid/synthetic/122,2026-10-01 12:45:00+00:00,2026-10-01 12:46:00+00:00,1.0
+SYNTH-NEWS-123,Synthetic growth and recovery,https://example.invalid/synthetic/123,2026-10-02 12:45:00+00:00,2026-10-02 12:46:00+00:00,1.0
+SYNTH-NEWS-124,Synthetic growth and recovery,https://example.invalid/synthetic/124,2026-10-05 12:45:00+00:00,2026-10-05 12:46:00+00:00,1.0
+SYNTH-NEWS-125,Synthetic growth and recovery,https://example.invalid/synthetic/125,2026-10-06 12:45:00+00:00,2026-10-06 12:46:00+00:00,1.0
+SYNTH-NEWS-126,Synthetic growth and recovery,https://example.invalid/synthetic/126,2026-10-07 12:45:00+00:00,2026-10-07 12:46:00+00:00,1.0
+SYNTH-NEWS-127,Synthetic growth and recovery,https://example.invalid/synthetic/127,2026-10-08 12:45:00+00:00,2026-10-08 12:46:00+00:00,1.0
+SYNTH-NEWS-128,Synthetic growth and recovery,https://example.invalid/synthetic/128,2026-10-09 12:45:00+00:00,2026-10-09 12:46:00+00:00,1.0
