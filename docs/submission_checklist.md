@@ -19,4 +19,4 @@ Screenshot deadline: **13 October 2026**. The task PDF requests delivery within 
 4. Source and nonconfidential demonstration reports are uploaded to the public repository, [adithya4001/cwt-macro-economics-agent](https://github.com/adithya4001/cwt-macro-economics-agent). The recruiter can access the link directly. Keep personal tokens, confidential logs and API responses out of Git history.
 5. Submit by email to **gilad@crowdwisdomtrading.com**, with repository link, outlook, evaluation report and access/reproduction details. Sending via Internshala alone is insufficient according to the screenshot.
 
-The candidate will handle email submission; no email has been sent. No token usage is fabricated. Exa was not used; the required news path is Tavily. The email draft includes the repository URL and candid live-data status.
+Email submission status is recorded separately in the candidate's Gmail Sent folder. No token usage is fabricated. Exa was not used; the required news path is Tavily. The email text includes the repository URL and candid live-data status.
