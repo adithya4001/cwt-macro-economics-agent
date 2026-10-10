@@ -2,7 +2,7 @@
 
 A Python pipeline that learns expected net trade returns for known strategy permutations, combines point-in-time macro/news context with closed-trade history, and evaluates chronological strategy selection.
 
-**Current status:** implementation and offline synthetic demonstration are complete. Source and submission artifacts are published in the private repository [adithya4001/cwt-macro-economics-agent](https://github.com/adithya4001/cwt-macro-economics-agent). No real trading logs or Apify/Tavily credentials were supplied. Live scraping and real-data performance are pending. The demo must not be represented as actual trading results or as a completed live-data assignment. Grant the reviewer repository access before submitting its link.
+**Current status:** implementation and offline synthetic demonstration are complete. Source and submission artifacts are published in the public repository [adithya4001/cwt-macro-economics-agent](https://github.com/adithya4001/cwt-macro-economics-agent). No real trading logs or Apify/Tavily credentials were supplied. Live scraping and real-data performance are pending. The demo must not be represented as actual trading results or as a completed live-data assignment. The repository can be opened without a collaborator invitation.
 
 ## Quick start
 
@@ -73,9 +73,9 @@ The forecast is for one specified future decision timestamp, conditional on know
 | Visual matrix/sentiment timeline | `reports/demo/` | Generated with synthetic labels |
 | One-page macro outlook | `docs/macro_outlook_2026-10-10.pdf` | Primary-source context, separately labelled |
 | Evaluation report | `reports/demo/evaluation_report.md` | Actual synthetic run metrics; real evaluation pending |
-| GitHub/GitLab link | private repository linked above | Source and reports uploaded; reviewer access required |
+| GitHub/GitLab link | public repository linked above | Source and reports uploaded; publicly accessible |
 | Tokens/Actor IDs | `.env.example`, API run manifests | Actor documented; no tokens supplied or claimed used |
-| Email submission | `docs/submission_email.txt` | Draft only; not sent |
+| Email submission | `docs/submission_email.txt` | Reusable submission text; check Gmail Sent for delivery status |
 
 The supplied task names Exa in the submission credentials list but specifies Tavily for news. Tavily is the news provider implemented here; Exa is not used and no Exa token is required. This code was prepared with AI assistance at the candidate's request; the candidate should review and understand the implementation and confirm applicable hiring rules.
 
